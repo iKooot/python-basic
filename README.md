@@ -1,0 +1,2 @@
+# python-basic
+Self education
