@@ -1,4 +1,4 @@
-user_number = int(input('Enter you number'))
+user_number = int(input('Enter your number'))
 
 number1, rest1 = divmod(user_number, 1000)
 number2, rest2 = divmod(rest1, 100)
