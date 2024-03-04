@@ -6,5 +6,5 @@ number3, rest3 = divmod(rest2, 100)
 number4, rest4 = divmod(rest3, 10)
 number5, _ = divmod(rest4, 1)
 
-result = str(number5) + str(number4) + str(number3) + str(number2) + str(number1)
+result = (((number5 * 10 + number4) * 10 + number3) * 10 + number2) * 10 + number1
 print(result)
