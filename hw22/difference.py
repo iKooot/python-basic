@@ -1,7 +1,8 @@
 from __future__ import annotations
+from typing import Generator
 
 
-def min_max_gen(numbers: tuple[int | float, ...]) -> tuple[int | float, int | float]:
+def min_max_gen(numbers: tuple[int | float, ...]) -> Generator[tuple[int | float, int | float], None, None]:
     yield min(numbers), max(numbers)
 
 
