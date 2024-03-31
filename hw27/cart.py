@@ -49,10 +49,10 @@ class Purchase:
 
 lemon = Item('lemon', 5, "yellow", "small", )
 apple = Item('apple', 2, "red", "middle", )
-# print(lemon)  # lemon, price: 5
+print(lemon)  # lemon, price: 5
 
 buyer = User("Ivan", "Ivanov", "02628162")
-# print(buyer)  # Ivan Ivanov
+print(buyer)  # Ivan Ivanov
 
 cart = Purchase(buyer)
 cart.add_item(lemon, 4)
